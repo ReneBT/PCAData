@@ -11,3 +11,5 @@ pip install matplotlib
 pip install os
 pip install copulas
 pip install scikit-learn
+pip install h5py
+pip install pathlib2

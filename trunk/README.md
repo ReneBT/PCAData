@@ -1,12 +1,12 @@
-# PCAMath
-Visual derivation of PCA using spectra
+# PCAData
+Exploration of Principal Component Analysis: Empirical Use of PCA visualized
 
-Code for generating simulated spectra, performing PCA then visually displaying spectral plots illustrating all the mathematical equations during derivation.
+Code for generating simulated spectra with a range of perturbations, performing PCA then visually displaying spectral plots illustrating the impact of the various perturbations on the resulting model.
 
 
 ## Getting Started
 
-The example code is designed to run in a Jupyter notebook. We recomend creating a virtual environment, then installing the requirements. For more information, see the Installation section below.
+The example code is designed to run in Spyder. We recommend creating a virtual environment, then installing the requirements. For more information, see the Installation section below.
 
 
 
@@ -36,7 +36,7 @@ You should now see "(venv_pca) (base)"  prefixing your command prompt:
 	pip install -r requirements.txt
 	ipython kernel install --user --name=.venv_pca
 
-Now run Jupyter Notebook from the start menu (in the Anaconda folder). In the browser window, navigate to the location to which you downloaded and extracted the PCAMath project folder. Click on the file "PCApaper.ipynb". This will pop up the "PCApaper" Notebook.
+Now run Jupyter Notebook from the start menu (in the Anaconda folder). In the browser window, navigate to the location to which you downloaded and extracted the PCAData project folder. 
 
 In the Notebook, click Kernel -> Change Kernel -> .venv_pca
 

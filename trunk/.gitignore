@@ -37,3 +37,5 @@ packages/
 __pycache__/
 .venv*/
 .ipynb*/
+#local output
+/docs/img/*

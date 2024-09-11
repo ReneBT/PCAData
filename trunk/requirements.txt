@@ -1,7 +1,9 @@
-# Requirements for PCA Math Tutorial
-pypandoc
+# Requirements for PCA Data Tutorial
 numpy
 scipy
 matplotlib
-sklearn
+scikit-learn
 pathlib
+copulas
+os
+h5py
