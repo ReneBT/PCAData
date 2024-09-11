@@ -1,43 +1,12 @@
-# PCAData
-Exploration of Principal Component Analysis: Empirical Use of PCA visualized
+PCAData
+Visual exploration of spectral data via PCA
 
-Code for generating simulated spectra with a range of perturbations, performing PCA then visually displaying spectral plots illustrating the impact of the various perturbations on the resulting model.
+Code for generating various data generation processes resulting in simulated spectra, performing PCA then visually displaying spectral plots illustrating the impact of data permutations on the model.
 
+Getting Started
+The example code is designed to run in a Spyder IDE (v5.4.3). Python 3.9.13 64-bit | Qt 5.15.2 | PyQt5 5.15.7 | Windows 10
 
-## Getting Started
+Installation
+To Install spyder follow the instructions on its website
 
-The example code is designed to run in Spyder. We recommend creating a virtual environment, then installing the requirements. For more information, see the Installation section below.
-
-
-
-## Installation
-
-Jupyter notebooks can be installed via Anaconda (https://www.anaconda.com/distribution/), which is freely available with installers for Windows, Mac, and Linux.
-
-To install a virtual environment, follow the instructions at https://anbasile.github.io/programming/2017/06/25/jupyter-venv/.
-
-
-## Windows: Using Jupyter Notebooks with a virtual environment (using Anaconda)
-
-Open the Anaconda Prompt from the start menu (in the Anaconda folder). Start by updating Anaconda and ensuring that it should work properly under 64-bit windows. There are a couple of issues that can be avoided by upgrading the python/jupyter environment before starting (such as pywin32 version 225 causing errors).
-
-	python -m pip install --upgrade pip
-	pip install --upgrade pywin32==224
-	pip install ipykernel
-
-Run the following commands (you should see "(base)"  prefixing your command prompt:
-
-	cd "project download location"
-	python -m venv .venv_pca
-	".venv_pca/Scripts/activate.bat"
-
-You should now see "(venv_pca) (base)"  prefixing your command prompt:
-
-	pip install -r requirements.txt
-	ipython kernel install --user --name=.venv_pca
-
-Now run Jupyter Notebook from the start menu (in the Anaconda folder). In the browser window, navigate to the location to which you downloaded and extracted the PCAData project folder. 
-
-In the Notebook, click Kernel -> Change Kernel -> .venv_pca
-
-Now your notebook is running in a virtual environment, with the specific requirements needed by this script.
+to ensure the correct modules are installed use pip commands found in installmodules.py file
